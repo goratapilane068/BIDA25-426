@@ -1,0 +1,93 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    color: brown;
+
+nav {
+    background-color: burlywood;
+    padding: 15px;
+}
+
+nav a {
+    color: brown;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: sienna;
+}
+
+
+h1, h2, h3 {
+    color: sienna;
+}
+
+#searchBar {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid tan;
+    border-radius: 8px;
+}
+
+
+.filters button {
+    background-color: tan;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filters button:hover {
+    background-color: peru;
+}
+.product-container {
+ display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.product {
+    
+    background-color: white;
+    border: 1px solid burlywood;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+button {
+    background-color: peru;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: sienna;
+}
+
+
+.product-container {
+    text-align: center;
+}
+
+
+footer {
+    background-color: burlywood;
+    color: brown;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
